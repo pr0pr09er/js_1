@@ -200,3 +200,133 @@
 //     let input = document.getElementById("input");
 //     input.value = input.value + element;
 // }
+
+// function buttonClick() {
+// 	var elem = document.getElementById('elem');
+// 	elem.innerHTML = '!!!';
+// }
+
+// function buttonClick() {
+// 	var elem = document.getElementById('elem');
+// 	elem.outerHTML = '<b>' + elem.innerHTML + '</b>';
+// }
+
+// function func() {
+// 	var elems = document.getElementsByTagName('p');
+// 	for (var i = 0; i < elems.length; i++) {
+// 		elems[i].innerHTML = i+1;
+// 	}
+// }
+
+// function func() {
+// 	var elems = document.getElementsByClassName('zzz');
+// 	for (var i = 0; i < elems.length; i++) {
+// 		elems[i].innerHTML = i+1;
+// 	}
+// }
+
+// function func() {
+// 	var elems = document.querySelectorAll('p.zzz');
+// 	for (var i = 0; i < elems.length; i++) {
+// 		elems[i].innerHTML = i+1;
+// 	}
+// }
+
+// function textTrans() {
+// 	let p = document.getElementById("p");
+// 	p.innerHTML = "Ку-ку! А я <b>жирный</b>!";
+// }
+
+// function textTrans() {
+// 	let p = document.getElementById("p");
+// 	p.outerHTML = "<h3>Абзац превратился в h3!</h3>";
+// }
+
+// function mult() {
+// 	let input1 = document.getElementById("firstNumber");
+// 	let input2 = document.getElementById("secondNumber");
+// 	let result = parseInt(input1.value) + parseInt(input2.value);
+// 	let input3 = document.getElementById("result");
+// 	input3.innerHTML = result;
+// }
+
+// function pTrans() {
+// 	p = document.getElementsByTagName("p");
+// 	for (i = 0; i < p.length; i++) {
+// 		p[i].innerHTML = "Ку-ку!";
+// 	}
+// }
+
+// function Trans() {
+// 	let p = document.getElementsByClassName("www");
+// 	for (let i = 0; i < p.length; i++) {
+// 		p[i].innerHTML = i + 1;
+// 	}
+// }
+
+// function Trans() {
+// 	let www = document.querySelectorAll("p.www");
+// 	for (let i = 0; i < www.length; i++) {
+// 		www[i].innerHTML = i + 1;
+// 	}
+// }
+
+// function classAlert() {
+// 	let p = document.getElementById("p");
+// 	alert(p.getAttribute("class"));
+// }
+
+
+// function classAlert() {
+// 	let p = document.getElementById("p");
+// 	alert(p.getAttribute("class"));
+// }
+// function removeAttr() {
+// 	let p = document.getElementById("p");
+// 	alert("Класс удален! Нажмите на первую кнопку чтобы проверить это!")
+// 	p.removeAttribute("class");
+// }
+
+// function classAlert() {
+// 	let p = document.getElementById("p");
+// 	alert(p.getAttribute("class"));
+// }
+// function setAttr() {
+// 	let p = document.getElementById("p");
+// 	alert("Класс изменен! Нажмите на первую кнопку чтобы проверить это!");
+// 	p.setAttribute("class", "new-class");
+// }
+
+// function copyText() {
+// 	input = document.getElementById("text").value;
+// 	document.getElementById("new-text").innerHTML = input;
+// }
+
+// function hrefTrans() {
+// 	let a = document.getElementsByTagName("a");
+// 	for (let i = 0; i < a.length; i++) {
+// 		a[i].innerHTML = a[i].innerHTML + " (" + a[i].getAttribute("href") + ")";
+// 	}
+// }
+
+// function pTrans(text) {
+// 	text.disabled = true;
+// 	text.innerHTML = "О, а на меня больше нельзя нажать!"
+// 	let p = document.getElementById("text");
+// 	p.innerHTML = "Привет, мир!";
+// 	p.style.color = "red";
+// }
+
+// function pTrans() {
+// 	let p = document.getElementsByTagName("p");
+// 	for (let i = 0; i < p.length; i++) {
+// 		p[i].innerHTML = i;
+// 	}
+// }
+
+// function pTrans() {
+// 	let p = document.getElementsByTagName("p");
+// 	for (let i = 0; i < p.length; i++) {
+// 		p[i].innerHTML = i + ". " + p[i].innerHTML;
+// 	}
+// }
