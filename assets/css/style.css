@@ -1,0 +1,21 @@
+.out{
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+}
+.num-counter{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.operationWithNumber{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.numbers{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+}
